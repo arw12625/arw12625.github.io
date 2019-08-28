@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#F0F0F0;
+    background:url("../images/petri.svg");
+    background-repeat:repeat;
+    background-attachment: fixed;
+    background-size: 33% 50%;
+}
+
+.site-header {
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: linear-gradient(to top, 
+        rgba(0,0,0,0) 10%, rgb(0, 39, 76) 20%);    
+}
+
+.site-header-wrapper {
+    max-width:1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    height: 80px;
+}
+
+#site-title {
+    float: left;
+    font-size: 32px;
+    color: rgb(255, 203, 5);
+    text-decoration: none;
+    padding: 15px;
+    text-shadow: 1px 1px 2px black;
+    text-decoration: underline;
+}
+
+
+.site-nav ul {
+    margin: 0;  
+    padding: 0;
+    float: right;
+}
+
+.site-nav li {
+    list-style: none;  
+    float: right;
+    text-align: center;
+}
+
+.site-nav a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 203, 5);
+    font-size:18px;
+    display: block;  
+    padding: 0 20px;  
+    text-align: center;
+    line-height: 80px;
+    text-shadow: 1px 1px black;
+}  
+
+.site-nav a:hover {
+  background: linear-gradient(to top, 
+        rgba(0,0,0,0) 10%, rgb(20, 60, 100) 20%);
+        
+    text-shadow: 1px 1px #333333;
+}
+
+main {
+}
+
+.content-wrapper {
+    padding:10px;
+}
+
+.post {
+    max-width:1000px;
+    margin: 0 auto;
+    background-color:  rgba(255, 203, 5, .7);
+    border-radius: 12px;
+}
+
+.post-header {
+    overflow: auto;
+    padding:20px;
+}
+
+#andrew-img {
+    float:right;
+    max-width: 100%;
+    height: auto;
+    width: 25%;
+    margin-right:10%;   
+    margin-top: 25px;
+}
+
+.post-title {
+    margin-top: 10%;
+    font-size: 30px;
+}
+.post-header-text {
+    font-size: 22px;
+}
+
+.post-title, .post-header-text {
+    margin-left: 10%;
+}
+
+.post hr {
+    border-top: 4px dotted rgb(0, 39, 76);
+    border-bottom: 0px;
+    width:40%;
+}
+
+.post-content {
+    margin: 0 10%;
+}
+
+.post-content p {
+    font-size: 18px;
+}
