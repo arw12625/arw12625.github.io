@@ -6,7 +6,7 @@ STYLES_DIR = styles
 SCRIPTS_DIR = scripts
 IMAGES_DIR = images
 
-HTML_OBJECTS = $(addprefix $(BUILD_DIR)/$(HTML_DIR)/, index.html)
+HTML_OBJECTS = $(addprefix $(BUILD_DIR)/$(HTML_DIR)/, index.html pub.html)
 SYTLE_OBJECTS = $(addprefix $(BUILD_DIR)/$(STYLES_DIR)/, style.css)
 SCRIPT_OBJECTS = $(patsubst $(SOURCE_DIR)/$(SCRIPTS_DIR)/%.js,$(BUILD_DIR)/$(SCRIPTS_DIR)/%.js, \
 					$(wildcard $(SOURCE_DIR)/$(SCRIPTS_DIR)/*.js))
