@@ -1,0 +1,29 @@
+
+{{ define "main" }}
+	<main aria-role="main">	
+		<div class="content-wrapper">		
+			<section class="post"> 
+				<header class="post-header">
+					<img id="andrew-img" src="{{ .Site.BaseURL }}/images/andrew_1.jpg" alt="{{ .Site.Author.name }}">
+					<h1 class="post-title">{{ .Site.Title }}</h1>
+					<p class="post-header-text">PhD candidate, Electrical and Computer Engineering<br />
+					Hiking, gardening, and programming enthusiast<br />
+					The University of Michigan, Ann Arbor<br />
+					Email address: <a href="mailto:{{ .Site.Author.email }}">{{ .Site.Author.email }}</a></p>
+				</header>
+
+				<div class="post-content">
+					<hr />
+					{{ .Content }}
+					<hr />
+					<br />
+					<p>Please contact me via email if you have any inquiries. You can also find me on Github:</p>
+					{{ partial "contacts.html" . }}					 
+				</div>
+			</section>
+		</div>
+	</main>
+
+
+{{ end }}
+

@@ -1,0 +1,84 @@
+mainAuthor = "A. Wintenberg"
+
+[[Conference]]
+authors = ["A. Wintenberg", "N. Ozay"]
+title = "Implicit Invariant Sets for High-Dimensional Switched Affine Systems"
+pdf = ""
+pubLink = "https://ieeexplore.ieee.org/document/9303986"
+year = "2020"
+venueName = "59th IEEE Conference on Decision and Control"
+venueAbbr= "CDC"
+
+[[Conference]]
+authors = ["A. Wintenberg", "M. Blischke", "S. Lafortune", "N. Ozay"]
+title = "Enforcement of K-Step Opacity with Edit Functions"
+pdf = ""
+pubLink = "https://ieeexplore.ieee.org/document/9682936"
+year = "2021"
+venueName = "60th IEEE Conference on Decision and Control"
+venueAbbr= "CDC"
+
+[[Conference]]
+authors = ["A. Wintenberg", "M. Blischke", "S. Lafortune", "N. Ozay"]
+title = "A Dynamic Obfuscation Framework for Security and Utility"
+pdf = ""
+pubLink = "https://ieeexplore.ieee.org/document/9797661"
+year = "2022"
+venueName = "ACM/IEEE 13th International Conference on Cyber-Physical Systems"
+venueAbbr= "ICCPS"
+
+[[Conference]]
+authors = ["R. Meria-Goes", "A. Wintenberg", "S. Matsui", "S. Lafortune"]
+title = "MDESops: An Open-Source Software Tool for Discrete Event Systems Modeled by Automata"
+pdf = ""
+pubLink = ""
+year = "2023"
+venueName = "22nd World Congress of the International Federation of Automatic Control"
+venueAbbr= "IFAC"
+
+
+
+[[Journal]]
+authors = ["A. Wintenberg", "M. Blischke", "S. Lafortune", "N. Ozay"]
+title = "A General Language-Based Framework for Specifying and Verifying Notions of Opacity"
+pdf = ""
+pubLink = "https://link.springer.com/article/10.1007/s10626-021-00357-x"
+year = "2021"
+venueName = "Journal of Discrete Event Dynamic Systems"
+venueAbbr= "JDEDS"
+
+[[Journal]]
+authors = ["S. Mohajerani", "R. Malik", "A. Wintenberg", "S. Lafortune", "N. Ozay"]
+title = "Divergent Stutter Bisimulation Abstraction for Controller Synthesis in Continuous State Spaces"
+pdf = ""
+pubLink = "https://www.sciencedirect.com/science/article/pii/S0005109821002430"
+year = "2021"
+venueName = "Automatica"
+venueAbbr= ""
+
+[[Journal]]
+authors = ["S. Morovati", "Y. Zhang", "S. Djouadi", "K. Tomsovic", "A. Wintenberg", "M. Olama"]
+title = "Robust Output Feedback Control Design for Inertia Emulation by Wind Turbine Generators"
+pdf = ""
+pubLink = "https://ieeexplore.ieee.org/document/9392289"
+year = "2021"
+venueName = "IEEE Transactions on Power Systems"
+venueAbbr= ""
+
+[[Journal]]
+authors = ["A. Wintenberg", "S. Lafortune", "N. Ozay"]
+title = "Opacity From Observers With a Bounded Memory"
+pdf = ""
+pubLink = "https://ieeexplore.ieee.org/document/10153780"
+year = "2023"
+venueName = "IEEE Control Systems Letters"
+venueAbbr= "LCSS"
+
+[[Journal]]
+authors = ["A. Wintenberg", "S. Lafortune", "N. Ozay"]
+title = "Integrating Obfuscation and Control for Privacy"
+pdf = ""
+pubLink = ""
+year = "2023"
+venueName = "In preparation for IEEE Control Systems Letters"
+venueAbbr= "TAC"

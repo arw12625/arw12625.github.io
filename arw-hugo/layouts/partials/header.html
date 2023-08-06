@@ -1,0 +1,14 @@
+<header class="site-header">
+	<div class="site-header-wrapper">
+		<a id="site-title" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+		<nav class="site-nav">
+			<ul>
+			{{ range .Site.Menus.main }}
+				<li><a href="{{ .URL }}" 
+				{{ if strings.HasSuffix .URL ".pdf" }}target="_blank"{{ end }}>
+					{{ .Name }}</a></li>
+			{{ end }}
+			</ul>
+		</nav> 
+	</div>
+</header>

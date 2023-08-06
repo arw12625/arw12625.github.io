@@ -1,0 +1,43 @@
+{{ $pubDataFile := .Get 0 }}
+{{ $pubType := .Get 1 }}
+{{ $table := index .Site.Data $pubDataFile $pubType}}
+{{ $mainAuthor := index .Site.Data $pubDataFile "mainAuthor"}}
+<table class="pub-table">
+	<tr>
+		<th>Authors</th>
+		<th>Title</th>
+		<th>Year</th>
+		<th>{{ $pubType }}</th>
+	</tr>
+	{{ range $row := $table }}
+		<tr>
+			<td>
+				{{ range $pubAuthorInd, $pubAuthor := index $row "authors" }}
+					{{- if ne $pubAuthorInd 0 -}}
+						,
+					{{ end }}
+					{{- if eq $pubAuthor $mainAuthor -}}
+						<span class="self-author">{{- . -}}</span>
+					{{- else -}}
+						{{- . -}}
+					{{- end -}}
+				{{ end }}
+			</td>
+			<td>
+				{{ if (index $row "pubLink") }}
+					<a href={{ printf "\"%s\"" (index $row "pubLink") }}>{{ index $row "title" }}</a>
+				{{ else }}
+					{{ index $row "title" }}
+				{{ end }}
+			</td>
+			
+			<td>{{ index $row "year" }}</td>
+			
+			<td>{{ index $row "venueName" }} 
+				{{ if (index $row "venueAbbr")}}
+				({{ index $row "venueAbbr" }})
+				{{end}}
+			</td>
+		</tr>
+	{{ end }}
+</table>

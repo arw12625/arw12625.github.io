@@ -1,0 +1,19 @@
+baseURL = 'http://www-personal.umich.edu/~awintenb/'
+languageCode = 'en-us'
+title = 'Andrew Wintenberg'
+disablePathToLower = true
+disableKinds = ["taxonomy", "RSS", "section"]
+enableRobotsTXT = true
+
+[author]
+	name = 'Andrew Wintenberg'
+	email = 'awintenb@umich.edu'
+
+[[menu.main]]
+	name = 'Publications'
+	pageRef = '/publications'
+	weight=10
+[[menu.main]]
+	name = 'CV'
+	URL = '/images/Andrew-Wintenberg-CV.pdf'
+	weight=20
