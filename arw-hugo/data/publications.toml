@@ -31,10 +31,19 @@ venueAbbr= "ICCPS"
 authors = ["R. Meria-Goes", "A. Wintenberg", "S. Matsui", "S. Lafortune"]
 title = "MDESops: An Open-Source Software Tool for Discrete Event Systems Modeled by Automata"
 pdf = ""
-pubLink = ""
+pubLink = "https://www.sciencedirect.com/science/article/pii/S2405896323010789"
 year = "2023"
 venueName = "22nd World Congress of the International Federation of Automatic Control"
 venueAbbr= "IFAC"
+
+[[Conference]]
+authors = ["A. Mainhardt", "A. Wintenberg", "A. Schmuck", "S. Lafortune"]
+title = "Formulating Attacks with Supervisory Control"
+pdf = ""
+pubLink = ""
+year = "2024"
+venueName = "17th IFAC Workshop on Discrete Event Systems"
+venueAbbr= "WODES"
 
 
 
@@ -79,6 +88,16 @@ authors = ["A. Wintenberg", "S. Lafortune", "N. Ozay"]
 title = "Integrating Obfuscation and Control for Privacy"
 pdf = ""
 pubLink = ""
-year = "2023"
-venueName = "In preparation for IEEE Control Systems Letters"
+year = "2024"
+venueName = "Under review at Transactions on Automatic Controls"
 venueAbbr= "TAC"
+
+
+
+[[Institution]]
+authors = ["A. Wintenberg"]
+title = "Privacy and Utility in Dynamic Systems: Verification and Enforcement"
+pdf = "../images/dissertation.pdf"
+year = "2024"
+venueName = "University of Michigan"
+venueAbbr= "UofM"

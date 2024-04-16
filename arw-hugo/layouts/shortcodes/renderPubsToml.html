@@ -25,7 +25,9 @@
 			</td>
 			<td>
 				{{ if (index $row "pubLink") }}
-					<a href={{ printf "\"%s\"" (index $row "pubLink") }}>{{ index $row "title" }}</a>
+					<a href="{{ printf "%s" (index $row "pubLink") | safeURL }}">{{ index $row "title" }}</a>
+				{{ else if (index $row "pdf") }}
+					<a href="{{ (index $row "pdf") }}" target="_blank">{{ index $row "title" }}</a>
 				{{ else }}
 					{{ index $row "title" }}
 				{{ end }}

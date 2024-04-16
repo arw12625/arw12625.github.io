@@ -5,8 +5,8 @@ draft = false
 +++
 
 ## About me:
-I am a fifth year PhD candidate in the Electrical Engineering and Computer Science department at the University of Michigan, Ann Arbor.
-I study control theory under my coadvisors [Necmiye Ozay](http://web.eecs.umich.edu/~necmiye/)
+I am a recent PhD graduate from the Electrical Engineering and Computer Science department at the University of Michigan, Ann Arbor.
+I studied control theory under my coadvisors [Necmiye Ozay](http://web.eecs.umich.edu/~necmiye/)
 and [Stephane Lafortune](http://web.eecs.umich.edu/~stephane). I graduated from the University of Tennessee,
 Knoxville in May 2018 with a B.S. in Electrical Engineering and double major in Mathematics.
  

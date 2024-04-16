@@ -11,8 +11,9 @@ enableRobotsTXT = true
 
 [[menu.main]]
 	name = 'Publications'
-	pageRef = '/publications'
+	URL = '/publications'
 	weight=10
+    
 [[menu.main]]
 	name = 'CV'
 	URL = '/images/Andrew-Wintenberg-CV.pdf'

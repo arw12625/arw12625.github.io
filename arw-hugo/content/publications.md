@@ -9,3 +9,6 @@ draft = false
 
 ## Journal Papers
 {{< renderPubsToml "publications" "Journal">}}
+
+## Dissertation
+{{< renderPubsToml "publications" "Institution">}}
