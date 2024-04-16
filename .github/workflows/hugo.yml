@@ -57,7 +57,7 @@ jobs:
           cd arw-hugo
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --config hugo.toml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
