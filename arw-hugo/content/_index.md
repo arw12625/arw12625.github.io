@@ -5,15 +5,17 @@ draft = false
 +++
 
 ## About me:
-I am a recent PhD graduate from the Electrical Engineering and Computer Science department at the University of Michigan, Ann Arbor.
-I studied control theory under my coadvisors [Necmiye Ozay](http://web.eecs.umich.edu/~necmiye/)
-and [Stephane Lafortune](http://web.eecs.umich.edu/~stephane). I graduated from the University of Tennessee,
-Knoxville in May 2018 with a B.S. in Electrical Engineering and double major in Mathematics.
- 
+I am a postdoctoral researcher with [Raphael Jungers](https://perso.uclouvain.be/raphael.jungers/content/home) at UCLouvain.
+I obtained my PhD in 2024 at the University of Michigan, Ann Arbor, studying control theory under my coadvisors [Necmiye Ozay](http://web.eecs.umich.edu/~necmiye/)
+and [Stephane Lafortune](https://eecs.engin.umich.edu/people/lafortune-stephane/).
+I graduated from the University of Tennessee,
+Knoxville in 2018 with a B.S. in Electrical Engineering and Mathematics.
+
 ---
 
 ## My research:
 
-I am interested in security and safety of cyberphysical systems within the frameworks of hybrid systems and discrete event systems.
-I am currently working on abstraction-based control, controlled invariant set computation, and opacity verification and enforcement.
+I am currently working on symbolic and abstraction-based control of cyberphysical systems.
+I am also interested security and safety of these systems within the framework of hybrid systems and discrete event systems.
+To this end, I have worked on privacy verification and enforcement as well as control invariant set computation.
 
